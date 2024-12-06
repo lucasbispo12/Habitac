@@ -4368,7 +4368,7 @@ blockquote cite {
 .footer-classic .footer-inner-1 {
 	padding: 50px 0;
 	color: #adb8c0;
-	background: #171c22;
+	background: #000000;
 }
 
 .footer-classic .footer-inner-1 h1, .footer-classic .footer-inner-1 h2, .footer-classic .footer-inner-1 h3, .footer-classic .footer-inner-1 h4, .footer-classic .footer-inner-1 h5, .footer-classic .footer-inner-1 h6, .footer-classic .footer-inner-1 [class^='heading-'] {
@@ -4376,9 +4376,9 @@ blockquote cite {
 }
 
 .footer-classic .footer-inner-2 {
-	padding: 15px 0;
+	padding: 10px 0;
 	color: #82929c;
-	background: #1b2027;
+	background: #000000;
 	text-align: center;
 }
 
@@ -4404,7 +4404,7 @@ blockquote cite {
 
 @media (min-width: 992px) {
 	.footer-classic .footer-inner-1 {
-		padding: 60px 0 70px;
+		padding: 30px 0 40px;
 	}
 	.footer-classic * + .contact-list {
 		margin-top: 22px;
