@@ -7039,7 +7039,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-main-inner {
-	background-color: #171C22;
+	background-color: #111214;
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-main {
@@ -7136,7 +7136,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-transparent.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-main-inner, .rd-navbar-transparent.rd-navbar-static.rd-navbar--is-clone .rd-navbar-main-inner {
-	background-color: #171c22;
+	background-color: #111214;
 	box-shadow: 0 0 22px -4px rgba(0, 0, 0, 0.17);
 }
 
