@@ -74,44 +74,48 @@
           <h2>Contatos</h2>
           <div class="row row-40">
             
-            <!--FORMULÁRIO -->
-             <div class="col-md-10 col-lg-6"> 
-              <h5>Entre em Contato</h5>
-              <form class="rd-form rd-mailform" method="POST" action="https://formsubmit.co/lucas.bispo@connectorconsultoria.com.br">
+            <!-- FORMULÁRIO -->
+<div class="col-md-10 col-lg-6"> 
+  <h5>Entre em Contato ou mande seu currículo</h5>
+  <form class="rd-form rd-mailform" method="POST" action="https://formsubmit.co/lucas.bispo@connectorconsultoria.com.br" enctype="multipart/form-data">
+    <div class="row row-10">
+      <div class="col-md-6">
+        <div class="form-wrap">
+          <input class="form-input" id="contact-first-name" type="text" name="name" data-constraints="@Required">
+          <label class="form-label" for="contact-first-name">Nome</label>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-wrap">
+          <input class="form-input" id="contact-last-name" type="text" name="company" data-constraints="@Required">
+          <label class="form-label" for="contact-last-name">Empresa</label>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-wrap">
+          <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+          <label class="form-label" for="contact-email">E-mail</label>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-wrap">
+          <label class="form-label" for="contact-message">Mensagem</label>
+          <textarea class="form-input" id="contact-message" name="message" rows="4" data-constraints="@Required"></textarea>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-wrap">
+          <label class="form-label" for="contact-resume"></label>
+          <input class="form-input" id="contact-resume" type="file" name="resume" accept=".pdf,.doc,.docx">
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="button button-size-1 button-block button-primary" type="submit">Enviar</button>
+      </div>
+    </div>
+  </form>
+</div>
 
-                <div class="row row-10">
-                  <div class="col-md-6">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-first-name" type="text" name="name" data-constraints="@Required">
-                      <label class="form-label" for="contact-first-name">Nome</label>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-last-name" type="company" name="name" data-constraints="@Required">
-                      <label class="form-label" for="contact-last-name">Empresa</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
-                      <label class="form-label" for="contact-email">E-mail</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-message">Mensagem</label>
-                      <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
-                    </div>
-                  </div>
-                  
-                  <div class="col-12">
-                    <button class="button button-size-1 button-block button-primary" type="submit">Enviar</button>
-                  </div>
-                </div>
-              </form>
-              
-            </div>
             <!-- IMAGEM -->
             <div class="col-md-6">
               <img src="/images/forms-.png" alt="Imagem ilustrativa" class="img-fluid">
